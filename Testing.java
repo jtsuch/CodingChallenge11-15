@@ -17,8 +17,8 @@ class Testing {
         Intersection i = new Intersection();
 
         // Testing True Intersection
-        System.out.println("Testing Intersections: (Expected True)");
-        System.out.println(i.intersect(one, five));
+        System.out.println("Testing Intersections: (Expected 3)");
+        System.out.println(i.intersect(one, five).val);
 
         // Testing False Intersection
         // Proof that it's checking by reference and not value
@@ -29,7 +29,7 @@ class Testing {
 
         printTwoLists(one, fakeOne);
 
-        System.out.println("Testing Intersections: (Expected False)");
+        System.out.println("Testing Intersections: (Expected Null)");
         System.out.println(i.intersect(one, fakeOne));
 
 
