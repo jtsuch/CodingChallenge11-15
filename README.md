@@ -11,3 +11,7 @@ Circular linked list: A (corrupt) linked list in which a node's next pointer poi
 EXAMPLE
 Input: A -> B -> C -> D -> E -> C [the same C as earlier]
 Output: C
+
+How to run some test cases:
+Run "javac Testing.java"
+Then run "java Testing"
