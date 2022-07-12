@@ -21,6 +21,7 @@ class Testing {
         System.out.println(i.intersect(one, five));
 
         // Testing False Intersection
+        // Proof that it's checking by reference and not value
         Linkedlist fakeFour = new Linkedlist(4);
         Linkedlist fakeThree = new Linkedlist(3, fakeFour);
         Linkedlist fakeTwo = new Linkedlist(2, fakeThree);
